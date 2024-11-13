@@ -192,9 +192,9 @@ export const WORK_CONTENTS = {
   ],
   Active: [
     {
-      title: "Active",
+      title: "Trải nghiệm",
       description:
-        " DEV, Tp.HCM Experience new technologies landing in Vietnam The Importance of Blockchain Security Mindset changes the perception of the Public blockchain security and private blockchain security Blockchain Model about how are blockchains secured? Learning about Teamwork with foreigners trainer about BlockChain",
+        "DEV, Tp.HCM Trải nghiệm công nghệ mới cập bến Việt Nam Tầm quan trọng của tư duy bảo mật Blockchain làm thay đổi nhận thức về bảo mật blockchain công khai và bảo mật blockchain riêng Mô hình Blockchain về cách thức bảo mật blockchain? Tìm hiểu về Teamwork với giảng viên người nước ngoài về BlockChain",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
           Near APAC
@@ -202,9 +202,9 @@ export const WORK_CONTENTS = {
       ),
     },
     {
-      title: "Innovation",
+      title: "Đạt được",
       description:
-        " Developing apps that make me to recive new experiences Expanding the mindset of Creating the Website Increasing a Teamwork",
+        "Phát triển các ứng dụng giúp tôi tiếp thu những trải nghiệm mới Mở rộng tư duy tạo trang web Tăng cường tinh thần đồng đội",
 
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">
@@ -213,9 +213,9 @@ export const WORK_CONTENTS = {
       ),
     },
   ],
-  Archive: [
+  thanhtuu: [
     {
-      title: "Archive",
+      title: "thanhtuu",
       description: "Giải 4 Cuộc thi UIUX Hackathon Toàn trường",
       content: (
         <div className="h-full w-full flex items-center justify-center text-white px-4">

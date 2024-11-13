@@ -261,15 +261,13 @@ const Contact = () => {
         <div className="flex flex-col contact-wrapper">
           <div className="flex flex-col">
             <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
-              CONTACT
+              Liên Hệ
             </p>
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
-              Contact
+              Đến Tôi
             </h1>
           </div>
-          <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-            Get In Touch.{" "}
-          </h2>
+
         </div>
 
         <form className="pt-10 sm:mx-auto sm:w-[30rem] md:w-[35rem] staggered-reveal">
@@ -287,7 +285,7 @@ const Contact = () => {
                 htmlFor="name"
                 className="absolute top-0 left-0 h-full flex items-center pl-4 text-lg font-mono transform transition-all"
               >
-                Name
+                Tên
               </label>
             </div>
 
@@ -320,7 +318,7 @@ const Contact = () => {
                 htmlFor="message"
                 className="absolute top-0 left-0 h-14 flex items-center pl-4 text-lg font-mono transform transition-all"
               >
-                Message
+                Lời nhắn
               </label>
             </div>
           </Fade>

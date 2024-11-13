@@ -31,12 +31,12 @@ const Work = ({ isDesktop }) => {
         ),
       },
       {
-        title: "Archive",
-        value: "Archive",
+        title: "Thành tựu",
+        value: "thanhtuu",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.Archive}
+            contentItems={WORK_CONTENTS.thanhtuu}
           />
         ),
       },
@@ -84,14 +84,12 @@ const Work = ({ isDesktop }) => {
         <div className="flex flex-col work-wrapper">
           <div className="flex flex-col">
             <p className="uppercase tracking-widest text-gray-light-1 staggered-reveal">
-              WORK
+              Kinh Nghiệm
             </p>
             <h1 className="text-6xl mt-2 font-medium text-gradient w-fit staggered-reveal">
-              Experience
+           Thực tập
             </h1>
-            <h2 className="text-[1.65rem] font-medium md:max-w-lg w-full mt-2 staggered-reveal">
-              A quick recap of where I&apos;ve worked.{" "}
-            </h2>
+
           </div>
           <Tabs tabItems={tabItems} />
         </div>
